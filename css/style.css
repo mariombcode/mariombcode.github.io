@@ -1,0 +1,255 @@
+@charset "utf-8";
+* {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	font-family: verdana;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+body{
+	max-width: 2500px;
+}
+
+#logodiv{
+	text-align: center;
+}
+
+#logo{
+	width: 10%;
+	margin: 30px;
+}
+
+#divweb{
+	width: 75%;
+	margin-left: 12.5%;
+	background-color: #15337b;
+	height: 450px;
+	border-radius: 30px;
+	box-sizing: border-box;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+#divweb1{
+	position: absolute;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 50px;
+	height: 250px;
+}
+
+#divweb2{
+	position: absolute;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 50px;
+	bottom: 0px;
+	height: 250px;
+}
+
+#web1{
+	background-color: #2e447d;
+	height: 100%;
+	width: 100%;
+	border-radius: 20px;
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+#web1 img{
+	position: absolute;
+	left: 50px;
+	height: 70%;
+	opacity: 0.8;
+}
+
+#web1 div{
+	position: absolute;
+	right: 2%;
+	width: 70%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#web2{
+	background-color: #2e447d;
+	height: 100%;
+	width: 100%;
+	border-radius: 20px;
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+#web2 img{
+	position: absolute;
+	right: 50px;
+	height: 70%;
+	opacity: 0.8;
+}
+
+#web2 div{
+	position: absolute;
+	width: 70%;
+	left: 2%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#web1 div p, #web2 div p{
+	font-size: 30px;
+	color: #1d0751;
+	font-style: italic;
+}
+
+
+
+@media (max-width: 1125px){
+	#web1 div p, #web2 div p{
+		font-size: 22px;
+	}
+}
+
+@media (max-width: 1030px){
+	#logo{
+		width: 20%;
+	}
+	#web1 div p, #web2 div p{
+		font-size: 18px;
+	}
+	#divweb{
+		width: 84%;
+		margin-left: 8%;
+	}
+}
+
+@media (max-width: 850px){
+	#web1 div p, #web2 div p{
+		font-size: 14px;
+	}
+	#divweb{
+		width: 90%;
+		margin-left: 5%;
+	}
+	#web1 div{
+		width: 50%;
+		right: 5%;
+	}
+	#web2 div{
+		width: 50%;
+		left: 5%;
+	}
+}
+
+@media (max-width: 650px){
+	#logo{
+		width: 30%;
+		margin: 10px;
+	}
+	#divweb{
+		height: 620px;
+	}
+	#divweb1{
+		padding: 20px;
+		height: 320px;
+	}
+	#divweb2{
+		padding: 20px;
+		height: 320px;
+	}
+	#web1 img{
+		top: 10px;
+		left: 10%;
+		width: 80%;
+		height: auto;
+		opacity: 1;
+	}
+	#web1 div{
+		bottom: 10px;
+		right: 5%;
+		width: 90%;
+	}
+	#web2 img{
+		top: 10px;
+		right: 26%;
+		width: 48%;
+		height: auto;
+		opacity: 1;
+	}
+	#web2 div{
+		bottom: 10px;
+		left: 5%;
+		width: 90%;
+	}
+}
+
+@media (max-width: 500px){
+	#divweb{
+		height: 540px;
+	}
+	#divweb1{
+		height: 280px;
+	}
+	#divweb2{
+		height: 280px;
+	}
+}
+
+@media (max-width: 430px){
+	#divweb{
+		height: 440px;
+	}
+	#divweb1{
+		height: 230px;
+	}
+	#divweb2{
+		height: 230px;
+	}
+}
+
+
+
+/*
+#backbutton{
+	height: 80px;
+	width: 200px;
+	background-color: #15337b;
+	opacity: 0.8;
+	position: fixed;
+	border-radius: 8px;
+	left: 10px;
+	bottom: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#backbutton:hover{
+	opacity: 1;
+}
+#backbutton img{
+	width: 20px;
+	margin-right: 10px;
+}
+#backbutton p{
+	color: white;
+	font-style: italic;
+	font-family: verdana;
+}
+@media (max-width: 500px){
+	#backbutton{
+		width: 94%;
+		left: 3%;
+		height: 50px;
+	}
+}
+*/

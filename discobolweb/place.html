@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="Description" content="Website from the fictitious nightclub Disco Bol. Web design by MarioMB">
+<meta name="Keywords" content="disco, disco ball, nightclub, electronic, reggaeton, place">
+<title>Disco Bol - The place</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link rel="icon" href="img/discoicon.png">
+</head>
+
+<body>
+	<div id="navfixed">
+	  <div> <a href="index.html"><img id="navlogo2" src="img/discobollogo2.png" alt="logo2"/></a>
+	     <img id="phonebutton" onclick="openmenu()" src="img/phonebutton.png" alt="phone button"/>
+	     <img id="phonebuttonexit" onclick="closemenu()" src="img/phonebuttonexit.png" alt="exit">
+		  <ul id="navfixedmenu">
+				<li><a href="visit.html" class="nav1">VISIT US</a></li>
+				<li class="navbold">THE PLACE</li>
+				<li><a href="menu.html" class="nav3">MENU</a></li>
+				<li><a href="contact.html" class="nav4">CONTACT</a></li>
+		  </ul>
+		</div>
+	</div>
+	
+	<header>
+   		<a href="index.html"><img src="img/discobollogo.png" alt="logo" title="Home"/></a>
+		<ul>
+			<li><a href="visit.html" class="nav1">VISIT US</a></li>
+			<li class="navbold">THE PLACE</li>
+			<li><a href="menu.html" class="nav3">MENU</a></li>
+			<li><a href="contact.html" class="nav4">CONTACT</a></li>
+		</ul>
+	</header>
+	<div id="headerspace">.</div>
+	<hr noshade>
+	
+	
+	<div id="bodyplace"> <!-- Images from Wikipedia -->
+	  	<div id="slide">
+			  <div class="mySlides fade">
+		  		<img src="img/place1.jpg" alt="place1"/>
+	  		  </div>
+			  <div class="mySlides fade">
+					<img src="img/place2.jpg" alt="place2"/>
+				</div>
+			  <div class="mySlides fade">
+					<img src="img/place3.jpg" alt="place3"/>
+				</div>
+			  <div class="mySlides fade">
+					<img src="img/place4.jpg" alt="place4"/>
+				</div>
+			  <div class="mySlides fade">
+					<img src="img/place5.jpg" alt="place5"/>
+				</div>
+			  <div class="mySlides fade">
+					<img src="img/place6.jpg" alt="place6"/>
+				</div>
+			  <div class="mySlides fade">
+					<img src="img/place7.jpg" alt="place7"/>
+				</div>
+
+			<a class="prev" onclick="plusSlides(-1)"><img src="img/button1.png" alt="button1"></a>
+  			<a class="next" onclick="plusSlides(1)"><img src="img/button2.png" alt="button2"></a>
+		</div>
+		
+	
+		<div id="placemap">
+		  	<div id="placemap1"><p>We´re at Puerta del Sol, Madrid</p></div>
+			<div id="placemap2"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d903.0978288166494!2d-3.7043827787182977!3d40.4166722665788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42290e2fa06349%3A0x1676419c937a4b0b!2sKil%C3%B3metro%200%20de%20las%20carreteras%20radiales%20de%20Espa%C3%B1a!5e0!3m2!1ses!2ses!4v1655486618968!5m2!1ses!2ses" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+			<a href="https://www.google.es/maps/place/Kil%C3%B3metro+0+de+las+carreteras+radiales+de+Espa%C3%B1a/@40.4167541,-3.7046216,18.08z/data=!4m5!3m4!1s0xd42290e2fa06349:0x1676419c937a4b0b!8m2!3d40.4166359!4d-3.7038101" target="_blank"><img src="img/maps.jpg"/></a>
+		</div>
+	</div>
+		
+	<footer>
+		<div id="footerbox">
+    		<img id="logo2" src="img/discobollogo2.png"  alt="logo2"/>
+			<div><a href="https://www.facebook.com" target="_blank" alt="facebook"><img src="img/facebook.png"></a>
+			<a href="https://www.instagram.com" target="_blank" alt="instagram"><img src="img/instagram.png"></a>
+			<a href="https://www.twitter.com" target="_blank" alt="twitter"><img src="img/twitter.png"></a></div>
+			<p id="footerp1">This website is from a <span>fictitious</span> nightclub</p>
+			<p id="footerp2">Web design by <a href="mailto:mariombmail@gmail.com">Mario</a></p>
+		</div>
+	</footer>
+
+	<a href="../index.html"><div id="backbutton"><img src="img/flecha.png"><p>VOLVER</p></div></a>
+</body>
+	<script src="js/scriptgallery.js"></script>
+</html>
