@@ -1360,3 +1360,16 @@ footer {
 		margin-top: 10px;
 	}
 }
+
+
+
+
+
+@media (max-width:420px){
+	#homediv1 p{
+		font-size: 30px;
+	}
+	#homediv2 p{
+		font-size: 30px;
+	}
+}
