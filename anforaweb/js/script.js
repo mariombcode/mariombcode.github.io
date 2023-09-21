@@ -361,7 +361,6 @@ function phoneMoveMatchBR(phonemovebr){
 	if (phonemovebr.matches) {
 		footerp2br.innerHTML = "TEL: 000000000<br>MAIL: anforafood@anforamail.es";
 		footerp3br.innerHTML = "This is the website of a<br><span>fictitious</span> company"
-		footerp2br.style.color = "#ba7810"
 	} else {
 		footerp2br.innerHTML = "TEL: 000000000 &nbsp;&nbsp; MAIL: anforafood@anforamail.es";
 		footerp3br.innerHTML = "This is the website of a <span>fictitious</span> company";
