@@ -215,8 +215,9 @@ body{
 	#divweb2{
 		height: 230px;
 	}
-@media (max-width: 1px){#divweb{height: 1px;}}
 }
+@media (max-width: 1px){#divweb{height: 1px;}}
+
 
 
 
